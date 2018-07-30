@@ -1,0 +1,5 @@
+- pipeline.id: websphere
+  path.config: "/usr/share/logstash/pipeline/conf.d/websphere.config"
+
+- pipeline.id: tomcat
+  path.config: "/usr/share/logstash/pipeline/conf.d/tomcat.config"
