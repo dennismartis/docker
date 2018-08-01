@@ -1,0 +1,3 @@
+TIMESTAMP %{MONTH:month}\s%{MONTHDAY:day},\s%{YEAR:year}\s%{TIME:time}\s(AM|PM)
+JAVACLASS (?:[a-zA-Z$_][a-zA-Z$_0-9]*\.)*[a-zA-Z$_][a-zA-Z$_0-9]*
+JAVAMETHOD (?:(<(?:cl)?init>)|[a-zA-Z$_][a-zA-Z$_0-9]*)
